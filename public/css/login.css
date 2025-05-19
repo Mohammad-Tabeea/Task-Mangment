@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+section {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("/images/background.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-login {
+    align-items: center;
+    display: flex;
+    background-color: rgb(163, 100, 221);
+    border-radius: 20px;
+    margin-right: 70px;
+    margin-top: 150px;
+    flex-direction: column;
+    width: 400px;
+    min-height: 400px;
+}
+
+.input-login {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.card-login p {
+    font-size: 2rem;
+    font-weight: 300;
+    color: rgb(98, 52, 141);
+}
+
+.input-lo {
+
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+.input-lo input {
+    height: 40px;
+    width: 350px;
+    background-color: white;
+    font-size: 1rem;
+    padding-left: 10px;
+    border-radius: 5px;
+    color: rgb(182, 34, 157);
+    border: 1px solid rgb(182, 34, 157);
+    margin-top: 30px;
+
+
+}
+
+.input-lo h1 {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.button-login {
+
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.button-login button {
+    height: 40px;
+    width: 350px;
+    background-color: rgb(214, 80, 174);
+    border: 1px solid rgb(182, 34, 157);
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: wheat;
+    transition: 0.7s ease;
+}
+
+.button-login a {
+    color: blueviolet;
+    text-decoration: none;
+
+}
+
+.button-login a:hover {
+    color: rgb(79, 19, 136);
+}
+
+.final-login button {
+    height: 40px;
+    width: 350px;
+
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 200;
+    color: wheat;
+    margin-top: 20px;
+    transition: 0.7s ease;
+
+}
+
+.final-login p {
+    margin-left: 150px;
+}
+
+.final-login {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.final-login .google {
+    margin-bottom: 5px;
+    background-color: white;
+    color: black;
+}
+
+.final-login .facebook {
+    margin-bottom: 5px;
+    background-color: rgb(30, 30, 160);
+    color: white;
+
+
+}
+
+.final-login button:hover,
+.button-login button:hover {
+    transform: scale(1.1);
+}
