@@ -12,7 +12,7 @@
 
 <table>
     <tr>
-        <th>Name</th>
+        <th class="">Name</th>
         <th>Email</th>
         <th>Role</th>
         <th>Actions</th>
